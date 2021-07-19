@@ -11,8 +11,6 @@
   </div>
 </article>
 
-// DISPLAYS THE COMMENT BOX AND UPVOTE BUTTON *ONLY* IF THE USER IS LOGGED IN 
-
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
@@ -38,9 +36,6 @@
   </section>
   {{/each}}
 </div>
-
-
-// LOADS THESE JAVASCRIPT FILES *ONLY* IF THE USER IS LOGGED IN 
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
